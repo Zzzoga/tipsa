@@ -1,0 +1,143 @@
+@media only screen and (max-width : 1440px) {
+    h1.title {
+        font-size: 32px;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .item.second.active {
+        background-size: 500px;
+        background-position: center bottom;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .item.second.active {
+        background-size: 500px;
+        background-position: right center;
+    }
+    
+    .item__list {
+        flex-direction: column;
+    }
+    
+    .item.active {
+        width: 100%;
+        height: 49%;
+    }
+    
+    .item {
+        width: 100%;
+        height: 17%;
+    }
+    
+    .item.first.active {
+        background-position: right center;
+        background-size: 489px;
+        background-color: #070707;
+    }
+    
+    .item.first .item__text {
+        max-width: 50%;
+    }
+    
+    
+    .item.second .item__text {
+        max-width: 50%;
+    }
+    
+    .item.third.active {
+        background-size: 70%;
+        background-position: left top;
+        background-color: #0b0a0f;
+    }
+    
+    .item.third .item__text {
+        width: 50%;
+    }
+    
+    body {
+        font-size: 16px;
+    }
+    
+    .item.third {
+        background-size: cover;
+        background-position: center center;
+        background-color: #060606;
+    }
+}
+@media only screen and (max-width : 600px) {
+    .item.active, .item {
+        width: 100%;
+        height: 100vh;
+    }
+
+    section.top__screen {
+        height: 100%;
+    }
+
+    .item.first.active, .item.first {
+        background-position: center bottom;
+        background-size: 100%;
+    }
+
+    .item {
+        padding: 30px;
+        border-bottom: 1px solid #26262b;
+    }
+
+    h1.title {
+        font-size: 40px;
+    }
+
+    .item.first .item__text {
+        max-width: 100%;
+    }
+
+    .item__overlay {
+        display: none;
+    }
+
+    .item__text, h1.title {
+        opacity: 1;
+    }
+
+    .item.second, .item.second.active {
+        background-size: 100%;
+        background-position: center bottom;
+    }
+
+    .item.second .item__text {
+        max-width: 100%;
+    }
+
+    .item.third, .item.third.active {
+        background-size: 100%;
+        background-position: center bottom;
+    }
+
+    .item.third .item__text {
+        width: 100%;
+        text-align: left;
+    }
+
+    .address, .soc {
+        opacity: 1;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    a.soc__link {
+        width: 54px;
+        height: 54px;
+    }
+
+    .soc {
+        gap: 20px;
+    }
+}
