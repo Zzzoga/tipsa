@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css"/>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -21,42 +22,66 @@
 
 <body>
 
+	<header>
+		<div class="header__wrapper">
+			<a href="/" class="logo"><img src="img/logo.svg" alt=""></a>
+			<nav class="nav">
+				<a href="#about" class="nav__link">О нас</a>
+				<a href="#mission" class="nav__link">Наша миссия</a>
+				<a href="#contacts" class="nav__link">Контакты</a>
+			</nav>
+		</div>
+	</header>
+
 	<main>
-		<section class="top__screen">
+		<section class="item first" id="about">
 			<div class="section__wrapper">
-				<div class="item__list">
-					<div class="item first active visible">
-						<div class="item__overlay"></div>
-						<h1 class="title">«Типса» — необычное место</h1>
-						<div class="item__text">Это одновременно бутик и пространство для дегустации и встречи комьюнити, которое ценит чай и пробует его в самых разных интерпретациях. Каждый посетитель может насладиться разнообразием ароматов и вкусов и поэкспериментировать с приготовлением чая: от традиционных китайских методов заваривания до инновационных подходов.</div>
-					</div>
-
-					<div class="item second">
-						<div class="item__overlay"></div>
-						<div class="item__text">Это одновременно бутик и пространство для дегустации и встречи комьюнити, которое ценит чай и пробует его в самых разных интерпретациях. Каждый посетитель может насладиться разнообразием ароматов и вкусов и поэкспериментировать с приготовлением чая: от традиционных китайских методов заваривания до инновационных подходов.</div>
-					</div>
-
-					<div class="item third">
-						<div class="item__overlay"></div>
-						<div class="item__text">Наша цель — популяризировать чайную культуру, открывать бутики по всей стране и предлагать своим гостям новый опыт, смыслы и ценности. Мы видим огромный интерес к чаю, как культурному и гастрономическому явлению. И это неудивительно, ведь чай — это целый образ жизни, символ гостеприимства и многовековых традиций.</div>
-					</div>
-
-					<div class="item contacts">
-						<div class="item__overlay"></div>
-						<div class="address">
-							<p>г. Уфа, ул. Аксакова, д. 18, офис 7</p>
-							<p>г. Уфа, ул. Чернышевского 88, Универмаг Фабрика, Арт-Квадрат</p>
-						</div>
-						<div class="soc">
-							<a href="https://m.vk.com/tipsa_official" class="soc__link vk">
-								<img src="img/vk.svg" alt="">
-							</a>
-							<a href="https://www.instagram.com/tipsa__official?igsh=MWZ6ZW9xbm1tbXBtNQ==" class="soc__link inst">
-								<img src="img/inst.svg" alt="">
-							</a>
-						</div>
-					</div>
+				<div class="item__img">
+					<img src="img/first.jpg" alt="">
 				</div>
+				<div class="item__content">
+					<h1 class="title">«Типса» — необычное место</h1>
+					<div class="item__text">Это одновременно бутик и пространство для дегустации и встречи комьюнити, которое ценит чай и пробует его в самых разных интерпретациях. Каждый посетитель может насладиться разнообразием ароматов и вкусов и поэкспериментировать с приготовлением чая: от традиционных китайских методов заваривания до инновационных подходов.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="item second">
+			<div class="section__wrapper">
+				<div class="item__img">
+					<img src="img/second.jpg" alt="">
+				</div>
+				<div class="item__content">
+					<div class="item__text">Концепция бара позволяет разнообразить выбор — лимонады, коктейли, моктейли, десерты, мороженое, еда, закуски, стартеры. Если чай используется как ингредиент, мы включаем позицию в меню. Например, мороженое на основе чая, кексы и тирамису на основе матчи или со вкусом молочного улуна. Мы показываем всё многообразие и богатство любимого напитка.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="item third" id="mission">
+			<div class="section__wrapper">
+				<div class="item__img">
+					<img src="img/third.jpg" alt="">
+				</div>
+				<div class="item__content">
+					<div class="item__text">Наша цель — популяризировать чайную культуру, открывать бутики по всей стране и предлагать своим гостям новый опыт, смыслы и ценности. Мы видим огромный интерес к чаю, как культурному и гастрономическому явлению. И это неудивительно, ведь чай — это целый образ жизни, символ гостеприимства и многовековых традиций.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="item contacts" id="contacts">
+			<div class="section__wrapper">
+				<div class="address">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab656c2bfdc874ef50256cbde79255523480727bc86fa6f945d9ade52932342d1&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+				</div>
+				<div class="soc">
+					<a href="https://m.vk.com/tipsa_official" class="soc__link vk">
+						<img src="img/vk.svg" alt="">
+					</a>
+					<a href="https://www.instagram.com/tipsa__official?igsh=MWZ6ZW9xbm1tbXBtNQ==" class="soc__link inst">
+						<img src="img/inst.svg" alt="">
+					</a>
+				</div>
+				<div class="copy">2024 © Типса. Чайный бар-бутик</div>
 			</div>
 		</section>
 	</main>
@@ -64,6 +89,7 @@
 	<script src="libs/jquery.min.js"></script>	
 	<script src="libs/gsap/gsap.min.js"></script>	
 	<script src="libs/gsap/ScrollTrigger.min.js"></script>	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="libs/swiper/swiper-bundle.min.js"></script>
 	<script src="libs/SmoothScroll.min.js"></script>
 	<script>

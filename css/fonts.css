@@ -1,4 +1,15 @@
 @font-face {
-	font-family: 'TildaSans'; 
-	src: url(../fonts/TildaSans-VF.ttf);
+	font-family: 'GT'; 
+	src: url(../fonts/GT-Pressura-Pro-Mono-Trial-Regular.otf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'GT'; 
+	src: url(../fonts/GT-Pressura-Pro-Mono-Trial-Light.otf);
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'GT'; 
+	src: url(../fonts/GT-Pressura-Pro-Mono-Trial-Bold.otf);
+	font-weight: 700;
 }
